@@ -1,2 +1,2 @@
 # HTML-AND-CSS-PROJECTS
-This repository contains coding projects related to HTML and CSS from the course.
+This repository contains various coding projects developed during my course focused on HTML and CSS. It showcases my learning journey and skills in web development.
