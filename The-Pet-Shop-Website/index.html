@@ -1,109 +1,146 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>The Pet Shop</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Find your perfect pet at The Pet Shop! Explore house cats, birds, and more. Visit us today!">
-        <style>
-            blockquote { 
-              display: block;
-              margin-top: 1em;
-              margin-bottom: 1em;
-              margin-left: 40px;
-              margin-right: 40px;
-              color: green;
-            }
-            </style>
-    </head>
-    <body>
-        <!--NAVBAR-->
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                
-            </ul>
-            <ul>
-                <a href="#cat"><li>House Cats</li></a>
-                <a href="#bird"><li>Birds</li></a>
-                <a href="#elephant"><li>Elephants</li></a>
-                <a href="#sheep"><li>Sheep</li></a>
-                <a href="#tiger"><li>Tigers</li></a>
-                <a href="#squirrel"><li>Squirrels</li></a>
-                <a href="#video"><li>Videos</li></a>
-            </ul>
-        </nav>
-        <!--HEADER-->
-        <header>
+
+<head>
+    <title>The Pet Shop</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Find your perfect pet at The Pet Shop! Explore house cats, birds, and more. Visit us today!">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        blockquote {
+            display: block;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            margin-left: 40px;
+            margin-right: 40px;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="nav-bar">
+        <ul id="nav-border">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+
+        </ul>
+        <ul>
+            <a href="#cat">
+                <li>House Cats</li>
+            </a>
+            <a href="#bird">
+                <li>Birds</li>
+            </a>
+            <a href="#elephant">
+                <li>Elephants</li>
+            </a>
+            <a href="#sheep">
+                <li>Sheep</li>
+            </a>
+            <a href="#tiger">
+                <li>Tigers</li>
+            </a>
+            <a href="#squirrel">
+                <li>Squirrels</li>
+            </a>
+            <a href="#video">
+                <li>Videos</li>
+            </a>
+        </ul>
+    </nav>
+    <!--HEADER-->
+    <header>
+        <div>
+            <h1 class="animate-text">Welcome to The Pet Shop!</h1>
+        </div>
+    </header>
+    <blockquote cite="https://www.goodreads.com/quotes/12179499-until-one-has-loved-an-animal-a-part-of-one-s">
+        <h2>"Until one has loved an animal, a part of one's soul remains unawakened.” -Anatole France</h2>
+    </blockquote>
+    <!--PET IMAGES-->
+    <section>
+        <div class="container">
+            <h2>Choose a Pet!</h2>
             <div>
-                <h1>Welcome to The Pet Shop!</h1>
-            </div>
-        </header>
-        <blockquote cite="https://www.goodreads.com/quotes/12179499-until-one-has-loved-an-animal-a-part-of-one-s">
-            <h2>"Until one has loved an animal, a part of one's soul remains unawakened.” -Anatole France</h2>
-        </blockquote>
-        <!--PET IMAGES-->
-        <section>
-            <div>
-                <h2>Choose a Pet!</h2>
-                <div>
-                    <!--CAT IMAGE-->
-                    <div id="cat">
+                <!--CAT IMAGE-->
+                <div id="cat" class="column">
+                    <div class="image-container">
                         <h3>House Cats</h3>
                         <img src="images/cat.jpg" alt="Picture of kittens">
+                        <div class="overlay"></div>
                     </div>
-                    <!--BIRD IMAGE-->
-                    <div id="bird">
+                </div>
+                <!--BIRD IMAGE-->
+                <div id="bird" class="column">
+                    <div class="image-container">
                         <h3>Birds</h3>
                         <img src="images/bird.jpg" alt="Picture of Bird">
+                        <div class="overlay"></div>
                     </div>
-                    <!--ELEPHANT IMAGE-->
-                    <div id="elephant">
+                </div>
+                <!--ELEPHANT IMAGE-->
+                <div id="elephant" class="column">
+                    <div class="image-container">
                         <h3>Elephants</h3>
                         <img src="images/elephant.jpg" alt="Picture of Elephants">
+                        <div class="overlay"></div>
                     </div>
-                    <!--SHEEP IMAGE-->
-                    <div id="sheep">
+                </div>
+                <!--SHEEP IMAGE-->
+                <div id="sheep" class="column">
+                    <div class="image-container">
                         <h3>Sheep</h3>
                         <img src="images/sheep.jpg" alt="Picture of Sheep">
+                        <div class="overlay"></div>
                     </div>
-                    <!--TIGER IMAGE-->
-                    <div id="tiger">
+                </div>
+                <!--TIGER IMAGE-->
+                <div id="tiger" class="column">
+                    <div class="image-container">
                         <h3>Tigers</h3>
                         <img src="images/tiger.jpg" alt="Picture of Tigers">
+                        <div class="overlay"></div>
                     </div>
-                    <!--SQUIRREL IMAGE-->
-                    <div id="squirrel">
+                </div>
+                <!--SQUIRREL IMAGE-->
+                <div id="squirrel" class="column">
+                    <div class="image-container">
                         <h3>Squirrels</h3>
                         <img src="images/squirrel.jpg" alt="Picture of Squirrel">
+                        <div class="overlay"></div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--VIDEOS-->
-        <section>
-            <!--DOG VIDEO-->
-            <div id="video">
-                <h3>Videos</h3>
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
-            </div>
-        </section>
-        <!--FOOTER-->
-        <footer>
-            <table>
-                <tr>
-                    <td>
-                        <p>The Pet Shop! &copy;</p>
-                    </td>
-                    <td>
-                        <p>123 Square Ave</p>
-                        <p>Portland, Oregon 97204</p>
-                    </td>
-                    <td>
-                        <p>503-234-3966</p>
-                    </td>
-                </tr>
-            </table>
-        </footer>
-    </body>
+        </div>
+    </section>
+    <!--VIDEOS-->
+    <section>
+        <!--DOG VIDEO-->
+        <div id="video" class="container">
+            <h3>Videos</h3>
+            <iframe width="980" height="420" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>The Pet Shop! &copy;</p>
+                </td>
+                <td>
+                    <p>123 Square Ave</p>
+                    <p>Portland, Oregon 97204</p>
+                </td>
+                <td>
+                    <p>503-234-3966</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
 </html>
