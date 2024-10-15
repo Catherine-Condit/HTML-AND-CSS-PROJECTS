@@ -1,0 +1,18 @@
+/*TEXT FONT AND SIZE*/
+body {
+    font-family: 'Roboto', sans-serif; /*font from fonts.google.com*/
+    font-size: 16px; 
+    font-weight: 400;
+}
+/*FORM*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 300px; /* Sets desired width */
+    margin: 10px 0; /* Sets margin between inputs */
+    border: 2px solid #ccc; /* Sets border color and style */
+    border-radius: 5px; /* Sets border radius */
+    padding: 8px;
+    font-family: 'Roboto', sans-serif; /*font from fonts.google.com*/
+}
