@@ -21,4 +21,4 @@ The "Simple Recipes" project showcases a clean, well-organized recipe sharing we
 The "One Page Website" project is a minimalist single-page blog website showcasing content about Sentinal Dome in Yosemite, California. It is designed with clear sections, such as an introduction, photos, tips, a video, and contact information, all contained in one scrollable page. This project is an excellent exercise in navigation, anchor links, and creating an engaging user experience on a single page.
 
 ### CSS Effects
-The "CSS Effects" project is a collection of a few different CSS animations and visual effects that can be applied to web elements for enhancing interactivity and user experience. Using image hover effects, this project demonstrates how CSS can be used to bring websites to life. 
+The "CSS Effects" project is a collection of a few different CSS animations and visual effects that can be applied to web elements for enhancing interactivity and user experience. Using image hover effects, this project demonstrates how CSS can be used to bring webpages, specifically ones with images, to life. 
