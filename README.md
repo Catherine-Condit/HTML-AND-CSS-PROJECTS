@@ -1,4 +1,4 @@
-# HTML-AND-CSS-PROJECTS
+# HTML AND CSS PROJECTS
 This repository contains a collection of HTML and CSS coding projects completed as part of The Tech Academy's Software Developer Bootcamp. It showcases my learning journey and skills in web development.
 
 ## PROJECTS
