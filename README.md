@@ -1,5 +1,5 @@
 # HTML-AND-CSS-PROJECTS
-This repository contains various coding projects developed during my course focused on HTML and CSS. It showcases my learning journey and skills in web development.
+This repository contains a collection of HTML and CSS coding projects completed as part of The Tech Academy's Software Developer Bootcamp. It showcases my learning journey and skills in web development.
 
 ## PROJECTS
 * [Academy Cinemas](https://github.com/Catherine-Condit/HTML-AND-CSS-PROJECTS/tree/main/Academy-Cinemas)
